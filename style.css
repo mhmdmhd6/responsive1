@@ -38,6 +38,9 @@ body {
 }
 
 @media  (max-width: 900px) {
+    .navbar {
+        height: 55px;
+    }
     .navbar .computer li a {
         display: none;
     }

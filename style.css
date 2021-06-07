@@ -68,10 +68,6 @@ body {
     flex-direction: row-reverse;
 }
 .right p{
-    color: white;
-    font-size: 32px;
-    font-family: fantasy;
-    margin-right: 15px;
     display: none;
 }
 .right .fa-quote-left {
@@ -87,6 +83,10 @@ body {
     }
     .right p {
         display: block;
+        color: white;
+        font-size: 19px;
+        font-family: fantasy;
+        margin-right: 15px;
     }
 }
 @keyframes rotated {

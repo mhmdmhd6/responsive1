@@ -14,6 +14,7 @@ body {
     left: 0;
     z-index: 1;
     backdrop-filter: blur(5px);
+    webkit-backdrop-filter: blur(5px);
     background: rgb(0 0 0 / 16%);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -84,7 +85,7 @@ body {
     .right p {
         display: block;
         color: white;
-        font-size: 19px;
+        font-size: 14px;
         font-family: fantasy;
         margin-right: 15px;
     }

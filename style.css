@@ -175,7 +175,7 @@ h2 {
 }
 .centering-shadow {
     height: 300px;
-    max-width: 1280px ;
+    max-width: 100% ;
     display: flex;
     justify-content: center;
     align-items: center;

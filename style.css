@@ -187,30 +187,6 @@ h2 {
     font-size: 27px;
     text-align: center;
 }
-.right-child h2::before  {
-    position: absolute;
-    content: "";
-    bottom: -41px;
-    width: 80px;
-    height: 3px;
-    background-color: rgb(113, 160, 247);
-    border-radius: 50%;
-}
-@media screen and (max-width:900px) {
-    .right-child h2::before {
-        bottom: -137px;
-    }
-}
-
-.sidebar-content h2::before  {
-    position: absolute;
-    content: "";
-    bottom: -41px;
-    width: 80px;
-    height: 3px;
-    background-color: rgb(133, 113, 247);
-    border-radius: 50%;
-}
 @font-face {
     font-family: 'Aviny';
     src: url(./aviny.ttf);
